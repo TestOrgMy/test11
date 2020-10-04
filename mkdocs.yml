@@ -1,0 +1,8 @@
+site_name: Test11
+site_description: TestOrgMy
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
