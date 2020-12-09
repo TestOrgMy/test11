@@ -13,14 +13,14 @@ repos:
     - id: check-merge-conflict
     - id: end-of-file-fixer
     - id: trailing-whitespace
-  - repo: https://github.com/Yelp/detect-secrets
-    rev: master
-    hooks:
-      - id: detect-secrets
-        exclude: go.*
-  - repo: https://github.com/Bahjat/pre-commit-golang
-    rev: master
-    hooks:
-      - id: go-fmt-import
-      - id: go-vet
-      - id: go-lint
+#   - repo: https://github.com/Yelp/detect-secrets
+#     rev: master
+#     hooks:
+#       - id: detect-secrets
+#         exclude: go.*
+#   - repo: https://github.com/Bahjat/pre-commit-golang
+#     rev: master
+#     hooks:
+#       - id: go-fmt-import
+#       - id: go-vet
+#       - id: go-lint
